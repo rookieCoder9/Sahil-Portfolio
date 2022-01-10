@@ -53,17 +53,7 @@ a {
   height: 100px;
   display: inline-block;
 }
-.arrow-btn {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  background-color: transparent;
 
-  border: none;
-}
-
-.arrow {
-  height: 6rem;
-}
 
 .middle-container {
   padding: 5% 8% 5% 10%;
