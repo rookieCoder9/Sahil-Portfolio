@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  background: #f0ece3;
+}
+.top-container h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+.top-container h2 {
+  font-family: 'Dancing Script', cursive;
+
+  padding: 2% 1% 2% 1%;
+  font-size: 40px;
+}
+.top-container {
+  margin-bottom: 1rem;
+  background: linear-gradient(344deg, #548cff, #93ffd8);
+  text-align: center;
+  background-color: #fffdde;
+  color: white;
+  padding: 5% 10% 8% 10%;
+}
+.top-container:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a {
+  text-decoration: none;
+}
+
+.col {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.circle {
+  background-color: #cddeff;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  width: 20rem;
+  height: 20rem;
+  text-align: center;
+}
+.profile_pic {
+  padding-top: 10%;
+  width: 15rem;
+}
+.cloud {
+  margin-top: 2%;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.arrow-btn {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color: transparent;
+
+  border: none;
+}
+
+.arrow {
+  height: 6rem;
+}
+
+.middle-container {
+  padding: 5% 8% 5% 10%;
+  background: linear-gradient(60deg, #ff8700 50%, black 50%);
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.middle-container h1 {
+  font-size: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif 'Dancing Script', cursive;
+  font-weight: 800;
+}
+.middle-container:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.middle-container .col {
+  text-align: left;
+  padding: 13% 10% 10% 10%;
+}
+
+.bottom-container {
+  padding: 2% 2% 5% 2%;
+  display: inline-block;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(120deg, #22577a 50%, #38a3a5 50%);
+  text-align: center;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.bottom-container h1 {
+  font-size: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif 'Dancing Script', cursive;
+  font-weight: 800;
+}
+
+.bottom-container .col {
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+.img-icon {
+  width: 15rem;
+  padding: 1% 1% 1% 1%;
+  border-radius: 50%;
+}
+.card-body {
+  margin: 0 auto 0 auto;
+  text-align: left;
+}
+a {
+  color: white;
+  font-size: 3rem;
+  text-decoration: none;
+  padding: 5% 5% 5% 5%;
+}
+a:hover {
+  color: gray;
+}
+.about {
+  background: white;
+  text-align: center;
+  padding: 10% 10% 10% 10%;
+}
+.about h1 {
+  padding: 0 5% 5% 5%;
+}
+.about p {
+  font-size: 30px;
+  text-align: left;
+}
+.footer {
+  text-align: center;
+  padding: 2% 5% 5% 2%;
+  background: #ff5959;
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 2% 2% 2% 2%;
+  }
+}
